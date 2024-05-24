@@ -1,4 +1,4 @@
-import getTokens from './getTokens'
+import getTokens, { Token } from './getTokens'
 
 /**
  * This function takes an ID as input and returns a formatted name.
@@ -8,8 +8,9 @@ import getTokens from './getTokens'
  * @param {string} id The ID to be transformed into a name.
  * @returns {string} The formatted name.
  */
-function getDisplayNameFromID(id: string): string {
-  return getTokens(id)
+function getDisplayNameFromID(id: string | Array<Token>): string {
+  const tokens = Array.isArray(id) ? id : getTokens(id)
+  return tokens
     .map(({ value }) => {
       return value[0].toUpperCase() + value.substring(1)
     })

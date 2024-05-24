@@ -1,7 +1,7 @@
 {
   "name": "@umk/strings",
-  "version": "0.1.0",
-  "description": "String utilities",
+  "version": "0.1.1",
+  "description": "String manipulation utilities",
   "author": "Uladzislau Maslakou <umaslakou@gmail.com>",
   "homepage": "https://github.com/umk/strings#readme",
   "license": "MIT",
