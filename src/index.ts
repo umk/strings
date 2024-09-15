@@ -1,7 +1,7 @@
-import createDamerauLevenshtein from './createDamerauLevenshtein'
-import createDamerauLevenshteinCompare from './createDamerauLevenshteinCompare'
-import getDisplayNameFromID from './getDisplayNameFromID'
-import getTokens, { Token, TokenKind } from './getTokens'
+import createDamerauLevenshtein from './createDamerauLevenshtein.js'
+import createDamerauLevenshteinCompare from './createDamerauLevenshteinCompare.js'
+import getDisplayNameFromID from './getDisplayNameFromID.js'
+import getTokens, { Token, TokenKind } from './getTokens.js'
 
 export {
   createDamerauLevenshtein,

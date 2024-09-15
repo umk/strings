@@ -1,4 +1,4 @@
-import createDamerauLevenshtein from './createDamerauLevenshtein'
+import createDamerauLevenshtein from './createDamerauLevenshtein.js'
 
 function createDamerauLevenshteinCompare(amax = 10, bmax = 10) {
   const dl = createDamerauLevenshtein(amax, bmax)

@@ -1,4 +1,4 @@
-import getTokens, { Token } from './getTokens'
+import getTokens, { Token } from './getTokens.js'
 
 /**
  * This function takes an ID as input and returns a formatted name.

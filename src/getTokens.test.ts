@@ -1,4 +1,4 @@
-import getTokens, { TokenKind } from './getTokens'
+import getTokens, { TokenKind } from './getTokens.js'
 
 describe('getTokens', () => {
   it.each([

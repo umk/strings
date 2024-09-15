@@ -1,4 +1,4 @@
-import createDamerauLevenshtein from './createDamerauLevenshtein'
+import createDamerauLevenshtein from './createDamerauLevenshtein.js'
 
 describe('createDL', () => {
   it.each([

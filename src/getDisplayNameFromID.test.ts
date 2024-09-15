@@ -1,4 +1,4 @@
-import getDisplayNameFromID from './getDisplayNameFromID'
+import getDisplayNameFromID from './getDisplayNameFromID.js'
 
 describe('getDisplayNameFromID', () => {
   it.each([
